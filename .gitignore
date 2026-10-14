@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.venv/
+training/output/
+datasets/landmarks.json
+.DS_Store
