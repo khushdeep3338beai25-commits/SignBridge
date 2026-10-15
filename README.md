@@ -77,4 +77,4 @@ npm install
 npm run dev
 ```
 
-Open the exact localhost URL printed by Vite. If Safari has remembered a denied permission, go to Safari → Settings → Websites → Camera, set localhost to Allow, then reload.
+Open the exact localhost URL printed by Vite. If Safari has remembered a denied permission, go to Safari → Settings → Websites → Camera, set localhost to Allow, then reloads.
