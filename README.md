@@ -30,7 +30,7 @@ Webcam → MediaPipe Hand Landmarker → 21 landmarks → wrist-relative normali
 Frames are processed in the browser. Training samples are stored in localStorage until exported or cleared.
 
 ## Feature preprocessing
-For each landmark, subtract the wrist (landmark 0) x/y/z. Compute the maximum Euclidean distance from the wrist across landmarks and divide every shifted coordinate by that radius. This yields 21 × 3 = 63 values. Use the same preprocessing for training and inference.
+For each landmark, subtract the wrist (landmark 0) x/y/z. Compute the maximum Euclidean distance from the wrist across landmarks and divide every shifted coordinate by that radius. This yields 21 × 3 = 63 values. Use the same preprocessing for training and inferences.
 
 ## Train a model
 See [training/README.md](training/README.md). The Python script creates actual held-out classification metrics and a confusion matrix. Use diverse recordings and preferably participant/session-level splits. A random split of near-identical frames can inflate scores.
