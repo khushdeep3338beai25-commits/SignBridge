@@ -253,7 +253,8 @@ For instructions, see [`training/README.md`](training/README.md).
 7. Export the trained model in a format supported by the application.
 8. Load the model and verify its label mapping and preprocessing.
 
-**Important:** Use participant-level or recording-session-level splits where possible. Randomly splitting nearly identical frames across training and test sets can produce misleadingly high evaluation scores.
+**Important:** 
+Use participant-level or recording-session-level splits where possible. Randomly splitting nearly identical frames across training and test sets can produce misleadingly high evaluation scores.
 
 The exact model architecture, export procedure, and supported model format should follow the implementation in the `training/` directory and the application's model loader.
 
